@@ -84,6 +84,7 @@
         ]
         reduce:^id(NSNumber*usernameValid, NSNumber *passwordValid) {
             return @([usernameValid boolValue] && [passwordValid boolValue]);
+            
         }];
 
 
